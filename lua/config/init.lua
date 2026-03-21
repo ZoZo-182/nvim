@@ -1,0 +1,6 @@
+require("config.lazy")
+require("config.remap")
+require("config.set")
+require("config.plugins.cmpconfig")
+require("config.plugins.lspconfig")
+require('nvim-highlight-colors').setup({})
