@@ -22,7 +22,6 @@ local plugins = {
 	  dependencies = { {'nvim-lua/plenary.nvim'} },
     config = function()
       local telescope = require('telescope')
-      local previewers = require('telescope.previewers')
 
     telescope.setup({
       defaults = {
@@ -81,6 +80,11 @@ local plugins = {
   'olrtg/nvim-emmet',
   'brenoprata10/nvim-highlight-colors',
   'nvim-mini/mini.icons',
+  {
+    'vyfor/cord.nvim',
+    build = ":Cord update",
+    opts = {},
+  },
 
   -- lsp configuration
   'neovim/nvim-lspconfig',
