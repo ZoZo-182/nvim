@@ -85,6 +85,7 @@ local plugins = {
     build = ":Cord update",
     opts = {},
   },
+  'windwp/nvim-autopairs',
 
   -- lsp configuration
   'neovim/nvim-lspconfig',
