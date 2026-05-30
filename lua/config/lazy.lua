@@ -75,7 +75,7 @@ local plugins = {
   'ThePrimeagen/harpoon',
   'mbbill/undotree',
   'tpope/vim-fugitive',
-  'jose-elias-alvarez/null-ls.nvim',
+  'nvimtools/none-ls.nvim',
   'MunifTanjim/prettier.nvim',
   'olrtg/nvim-emmet',
   'brenoprata10/nvim-highlight-colors',
