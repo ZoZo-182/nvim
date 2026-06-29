@@ -90,7 +90,7 @@ local plugins = {
     'iamcco/markdown-preview.nvim',
     cmd = { 'MarkdownPreview', 'MarkdownPreviewStop', 'MarkdownPreviewToggle' },
     ft = { 'markdown' },
-    build = 'cd app && npm install',
+    build = 'cd app && npx --yes yarn@1.22.22 install --frozen-lockfile',
   },
 
   -- lsp configuration
