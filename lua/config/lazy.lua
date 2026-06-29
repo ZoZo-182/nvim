@@ -86,6 +86,12 @@ local plugins = {
     opts = {},
   },
   'windwp/nvim-autopairs',
+  {
+    'iamcco/markdown-preview.nvim',
+    cmd = { 'MarkdownPreview', 'MarkdownPreviewStop', 'MarkdownPreviewToggle' },
+    ft = { 'markdown' },
+    build = 'cd app && npm install',
+  },
 
   -- lsp configuration
   'neovim/nvim-lspconfig',
