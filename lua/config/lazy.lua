@@ -86,6 +86,7 @@ local plugins = {
     opts = {},
   },
   'windwp/nvim-autopairs',
+  { 'wakatime/vim-wakatime', lazy = false },
   {
     'iamcco/markdown-preview.nvim',
     cmd = { 'MarkdownPreview', 'MarkdownPreviewStop', 'MarkdownPreviewToggle' },
