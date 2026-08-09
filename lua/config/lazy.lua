@@ -48,7 +48,7 @@ local plugins = {
     name = "aether",
     config = function()
         require("aether").setup({
-            transparent = false,
+            transparent = true,
             colors = {
                 bg = "#1c1e26",
                 bg_dark = "#1c1e26",
